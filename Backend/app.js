@@ -20,6 +20,13 @@ app.use(express.urlencoded({extended:true}));
 
 app.use("/api/v1/message", messageRouter);
 
+app.get("/",(req,res)=>{
+    res.json({
+        success:true,
+        message:"WELCOME TO MY APP"
+    })
+})
+
 dbConnection();
 
 export default app;
