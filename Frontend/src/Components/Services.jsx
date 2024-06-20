@@ -4,32 +4,32 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      url: "/public/birthday.jpg",
+      url: "/birthday.jpg",
       title: "Birthday Planning",
     },
     {
       id: 2,
-      url: "/public/anniversary.jpg",
+      url: "/anniversary.jpg",
       title: "Anniversary Planning",
     },
     {
       id: 3,
-      url: "/public/camping.jpg",
+      url: "/camping.jpg",
       title: "Camping Trip Planning",
     },
     {
       id: 4,
-      url: "/public/gamenight.jpg",
+      url: "/gamenight.jpg",
       title: "Game Night Planning",
     },
     {
       id: 5,
-      url: "/public/party.jpg",
+      url: "/party.jpg",
       title: "Party Planning",
     },
     {
       id: 6,
-      url: "/public/wedding.jpg",
+      url: "/wedding.jpg",
       title: "Wedding Planning",
     },
   ];
@@ -51,6 +51,5 @@ const Services = () => {
     </>
   );
 };
-
 
 export default Services;
